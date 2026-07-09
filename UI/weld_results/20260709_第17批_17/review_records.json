@@ -1,0 +1,70 @@
+[
+  {
+    "timestamp": "2026-07-09 10:38:47",
+    "image_path": "camera_batch@1783564727",
+    "ai_summary": {
+      "total": 4,
+      "batch_name": "20260709_第17批_17"
+    },
+    "reviews": [
+      {
+        "defect_index": 0,
+        "cls_name": "Overlap",
+        "cls_id": 4,
+        "confidence": 0.3272973895072937,
+        "bbox": [
+          160.85159301757812,
+          262.410400390625,
+          188.96115112304688,
+          301.293212890625
+        ],
+        "human_judgment": "ai_false_positive"
+      },
+      {
+        "defect_index": 1,
+        "cls_name": "Overlap",
+        "cls_id": 4,
+        "confidence": 0.3436802625656128,
+        "bbox": [
+          0.8867835998535156,
+          455.0024719238281,
+          63.06528091430664,
+          480.0
+        ],
+        "human_judgment": "ai_false_positive"
+      },
+      {
+        "defect_index": 2,
+        "cls_name": "Undercut",
+        "cls_id": 8,
+        "confidence": 0.4590602517127991,
+        "bbox": [
+          130.79083251953125,
+          192.66961669921875,
+          634.8736572265625,
+          249.3468017578125
+        ],
+        "human_judgment": "confirmed"
+      },
+      {
+        "defect_index": 3,
+        "cls_name": "Undercut",
+        "cls_id": 8,
+        "confidence": 0.5661341547966003,
+        "bbox": [
+          101.85821533203125,
+          219.51776123046875,
+          630.2285766601562,
+          286.493408203125
+        ],
+        "human_judgment": "confirmed"
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "confirmed": 2,
+      "false_positive": 2,
+      "pending": 0
+    }
+  }
+]
